@@ -1,0 +1,482 @@
+/*importar tipografias localmente*/
+/*@font-face {
+   font-family: 'Croseed Out';
+   src: url(../multimedia/fuentes/crossed-out.ttf);
+}
+*/
+/*reset de las paginas. Con esto le quito los margenes
+ y selecciono la tipografia de todas la pagina*/
+*{
+
+   margin:0;
+   padding:O;
+   font-family: 'Poppins', sans-serif;
+}
+
+header {
+   
+      position: fixed;
+      z-index: 3; /*para que este lo mas adelante posible*/
+      width: 100%;
+      top: 0;  
+      
+     
+
+}
+
+
+/*.header-index-principal{
+   background-image: url(../recursos/imagenes/fondo-index.jpg);
+
+}*/
+
+.sectionHeaderIndex{
+
+   height: 30px;
+   
+}
+
+.nav-index{
+display: flex;
+align-items: center;
+background-color: white;
+flex-wrap: wrap;
+justify-content: center;
+
+
+}
+
+.nav-index a{
+   text-decoration: none;
+}
+
+.nav-item{
+
+   font-size: 20px;
+   list-style-type: none;
+   text-decoration: none; 
+   display: inline-block;
+   padding: 14px 14px;
+  
+}
+
+/*css por id con el asterisco*/
+#logo {
+display: flex;
+width: 75px;
+
+
+}
+
+
+
+#mainIndex{
+
+   background-color: lightseagreen;
+   margin-top: 5px; 
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+  /* grid-template-areas: barraverticalizquierda barracentraindex barracentraindex barraverticalderecha  ;*/
+   align-items: baseline;
+   padding-top: 175px;
+
+}
+
+.barraverticalizquierda{
+   
+   margin-top: 5px;
+   height: auto;
+   overflow: hidden;
+   border-style: inset;
+   margin-right: 5px;
+   width: 350px;
+/*grid-area: barraverticalizquierda;*/
+
+}
+
+.noticiasbarraizquierda{
+   display: flex;
+   margin-top: 50px;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   border-style: inset;
+   padding: 10px 10px;
+   width: 300px;
+
+}
+
+.barracentraindex{
+   margin-top: 5px;
+   margin-left: 5px;
+   height: auto;
+   border-style: inset;
+   flex-wrap: wrap;
+  
+  
+
+}
+
+.noticiasbarracentral{
+   display: flex;
+   margin-top: 100px;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   border-style: inset;
+   padding: 10px 10px;
+   justify-content: center;
+
+
+}
+
+
+
+.barraverticalderecha{
+   
+   margin-top: 5px;
+   margin-left: 200px;
+   height: auto;
+   overflow: hidden;
+   border-style: inset;
+   width: 350px;
+   margin-right: 5px;
+
+
+   }
+   
+   .noticiasbarraderecha{
+      display: flex;
+      margin-top: 50px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      border-style: inset;
+      padding: 5px 15px;
+      width: 300px;
+      
+   
+   }
+
+
+#sectionCarruselIndex{
+   margin-top: 15px;
+   padding: 25px 25px;
+   background-color: lightsalmon;
+   height: 250px;
+}
+
+
+
+.carousel-item img {
+   
+   width: 15px;
+   height: 200px;  
+
+
+}
+
+
+footer{
+
+   background-color: rgb(11, 172, 11);
+   font-size: 10px;
+   color: black;
+   display: flex;
+   justify-content: space-between;
+}
+
+
+/*-----------------------Hasta aca va el index--------------------------------------------*/
+
+
+/*-----------------------Arranca el estilado de HIstoria----------------------------------*/
+
+
+
+  #mainHistoria{
+     padding: 5px 5px;
+  }
+
+  .parrafoHistoria{
+   display: flex;
+   align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    background-color: lightgreen;
+    padding: 15px 0px;
+    margin-top: 85px;
+  }
+
+  .parrafoHistoria img{
+        width: 200px;
+        height: 200px;  
+        border-radius: 100%;
+        object-fit: cover; 
+  }
+
+  .parrafoHistoria p{
+     width: 75%;
+    
+}
+
+
+#sectioncarruselhistoria {
+
+   padding: 25px 25px;
+   background-color: lightsalmon;
+  }
+
+  #sectioncarruselhistoria .carousel-item active {
+   object-fit: cover;
+
+  }
+
+  
+
+
+  
+
+
+  /*-------------------------Termina el estilado de Historia-----------------------------*/
+
+
+
+/*---------------------------Aca arranca el estilado de presidentes----------------------*/
+
+
+
+#presientesImagenes{
+
+   display: flex;
+   margin-top: 200px;
+
+}
+
+.presidentes-imagenes{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    background-color: lightgreen;
+    padding: 25px 10px;
+    margin-top: 85px;
+    
+ 
+}
+
+.presidentes-imagenes img{
+   width: 200px;
+   height: 200px;  
+   border-radius: 100%;
+   object-fit: cover;  
+  
+
+}
+
+.presidentes-imagenes p{
+   width: 75%;
+   
+}
+
+#sectioncarruselpreseidentes{
+
+   padding: 25px 25px;
+   background-color: lightsalmon;
+
+}
+
+
+  
+
+
+/*---------------------------Aca termina el estilado de presidentes-----------------------*/
+
+
+/*---------------------------Aca arranca el estilado de galeria----------------------------*/
+
+
+#galeria img{
+
+   width: 100%;
+}
+
+#galeria {
+
+   margin-top: 50px;
+   
+}
+
+#galeria .col-lg-4 {
+
+   padding: 25px;
+}
+
+#galeria img:hover{
+
+   border: 5px solid white;
+}
+
+
+#sectioncarruselgaleria{
+
+   padding: 25px 25px;
+   background-color: lightsalmon;
+}
+
+
+
+/*
+
+.galeria-general-imagenes{
+
+  display: flex;
+  background-color: lightgreen;
+  align-items: center;
+  padding: 15px 0px;
+  margin-top: 75px;
+  flex-wrap: wrap;
+
+}
+
+.imagenes-galeria img{
+   width: 150px;
+   height: 150px;  
+   object-fit: over;
+
+}
+*/
+
+
+
+
+/*---------------------------Aca termina el estilado de galeria-----------------------------*/
+
+/*---------------------------Aca ararnca el estilado de contacto-----------------------------*/
+
+
+
+
+
+.main-contacto{
+   height: auto;
+   background-color: lightgreen;
+   margin-top: 85px;
+  
+   
+}
+
+.main-contacto p{
+   height: 10px;
+   margin-top: 10px;
+   text-align: center;
+   padding: 10px ;
+
+   
+}
+
+/*
+#contactoIzquierda{
+display: flex;
+margin-top: 20px;
+margin-left: 30px;
+justify-content: space-evenly;
+justify-content: center;
+
+
+}
+
+#contactoDerecha{
+   display: flex;
+   margin-top: 5%;
+   margin-left: 30px;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-content: space-around;
+   justify-content: center;
+   
+   }
+
+   #textareaContacto{
+
+      display: flex;
+      padding: 10px 0px;
+      margin-left: 25px;
+      margin-top: 25px;
+      justify-content: center;
+
+   }
+*/
+   .div-boton-contacto{
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+   }
+
+
+   .boton-contacto {
+      padding: 10px; /*espacio alrededor texto*/
+      background-color: #2e518b; /*color botón*/
+      color: #ffffff; /*color texto*/
+      text-decoration: none; /*decoración texto*/
+      font-family: 'Poppins', sans-serif; /*tipografía texto*/
+      border-radius: 50px; /*bordes redondos*/
+      
+      }
+
+
+   .boton-contacto:hover {
+      background-color: #ad0f17; 
+   }
+
+   #sectioncarruselcontacto{
+
+      padding: 25px 25px;
+      background-color: lightsalmon;
+   }
+
+
+   
+/*---------------------------Aca termina el estilado de contacto-----------------------------*/
+
+/*--------------------------- Pseudo Clases -------------------------------------------------*/
+
+
+.presidentes-imagenes:nth-of-type(odd) p {
+   
+   order: 2;
+
+   }
+
+
+
+/*---------------------------Termina Pseudo Clase---------------------------------------------*/
+
+
+
+
+/*------------------------------Media Query---------------------------------------------------*/
+ 
+
+   @media (max-width:375px){
+      #mainIndex{
+         grid-template-columns: repeat(1,1fr); 
+      }
+
+      .presidentes-imagenes{
+         height: auto;
+         flex-direction: column;
+         
+      
+     }
+
+      .parrafoHistoria{
+
+         height: auto;
+         flex-direction: column;
+      }
+
+   }
