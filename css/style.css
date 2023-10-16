@@ -25,11 +25,6 @@ header {
 }
 
 
-/*.header-index-principal{
-   background-image: url(../recursos/imagenes/fondo-index.jpg);
-
-}*/
-
 .sectionHeaderIndex{
 
    height: 30px;
@@ -72,7 +67,7 @@ width: 75px;
 
 #mainIndex{
 
-   background-color: lightseagreen;
+   background-color: lightgoldenrodyellow;
    margin-top: 5px; 
    display: grid;
    grid-template-columns: repeat(3,1fr);
@@ -82,87 +77,18 @@ width: 75px;
 
 }
 
-.barraverticalizquierda{
-   
-   margin-top: 5px;
-   height: auto;
-   overflow: hidden;
-   border-style: inset;
-   margin-right: 5px;
-   width: 350px;
-/*grid-area: barraverticalizquierda;*/
 
+.card {
+
+   margin-top: 10px;
 }
 
-.noticiasbarraizquierda{
-   display: flex;
-   margin-top: 50px;
-   margin-left: 10px;
-   margin-right: 10px;
-   margin-bottom: 10px;
-   border-style: inset;
-   padding: 10px 10px;
-   width: 300px;
-
-}
-
-.barracentraindex{
-   margin-top: 5px;
-   margin-left: 5px;
-   height: auto;
-   border-style: inset;
-   flex-wrap: wrap;
-  
-  
-
-}
-
-.noticiasbarracentral{
-   display: flex;
-   margin-top: 100px;
-   margin-left: 10px;
-   margin-right: 10px;
-   margin-bottom: 10px;
-   border-style: inset;
-   padding: 10px 10px;
-   justify-content: center;
-
-
-}
-
-
-
-.barraverticalderecha{
-   
-   margin-top: 5px;
-   margin-left: 200px;
-   height: auto;
-   overflow: hidden;
-   border-style: inset;
-   width: 350px;
-   margin-right: 5px;
-
-
-   }
-   
-   .noticiasbarraderecha{
-      display: flex;
-      margin-top: 50px;
-      margin-left: 10px;
-      margin-right: 10px;
-      margin-bottom: 10px;
-      border-style: inset;
-      padding: 5px 15px;
-      width: 300px;
-      
-   
-   }
 
 
 #sectionCarruselIndex{
-   margin-top: 15px;
+   margin-top: 5px;
    padding: 25px 25px;
-   background-color: lightsalmon;
+   background-color: lightgoldenrodyellow;
    height: 250px;
 }
 
@@ -177,15 +103,49 @@ width: 75px;
 }
 
 
-footer{
+.mainfooter{
 
-   background-color: rgb(11, 172, 11);
+   background-color:lightgoldenrodyellow;
    font-size: 10px;
    color: black;
    display: flex;
    justify-content: space-between;
 }
 
+
+.buttons {
+
+   min-width: 25px;
+   display:flex;
+   padding: 15px;
+   
+
+
+}
+
+.buttons a {
+   text-decoration: none;
+   font-size: 28px;
+   width: 35px;
+   height: 35px;
+   line-height: 35px;
+   border-radius: 50%;
+   
+}
+
+.derechos {
+display: flex;
+justify-content: space-between;
+margin-right: 50px;
+padding: 10px 0px;
+
+}
+
+.derechos p{
+
+   font-size: 18px;
+   margin-left: 10px;
+}
 
 /*-----------------------Hasta aca va el index--------------------------------------------*/
 
@@ -196,6 +156,7 @@ footer{
 
   #mainHistoria{
      padding: 5px 5px;
+     background-color: lightgoldenrodyellow;
   }
 
   .parrafoHistoria{
@@ -203,10 +164,19 @@ footer{
    align-items: center;
     justify-content: space-between;
     font-size: 18px;
-    background-color: lightgreen;
+    
     padding: 15px 0px;
     margin-top: 85px;
   }
+
+  .parrafoHistoria p{
+
+   padding: 15px 15px;
+   margin-right: 10px;
+   
+  }
+
+ 
 
   .parrafoHistoria img{
         width: 200px;
@@ -222,9 +192,9 @@ footer{
 
 
 #sectioncarruselhistoria {
-
+   margin-top: 5px;
    padding: 25px 25px;
-   background-color: lightsalmon;
+   background-color: lightgoldenrodyellow;
   }
 
   #sectioncarruselhistoria .carousel-item active {
@@ -244,14 +214,11 @@ footer{
 
 /*---------------------------Aca arranca el estilado de presidentes----------------------*/
 
+.mainpresidentes {
 
-
-#presientesImagenes{
-
-   display: flex;
-   margin-top: 200px;
-
+   background-color: lightgoldenrodyellow;
 }
+
 
 .presidentes-imagenes{
 
@@ -259,18 +226,20 @@ footer{
     align-items: center;
     justify-content: space-between;
     font-size: 18px;
-    background-color: lightgreen;
-    padding: 25px 10px;
+    background-color: lightgoldenrodyellow;
+    padding: 10px 10px;
     margin-top: 85px;
     
  
 }
 
 .presidentes-imagenes img{
-   width: 200px;
-   height: 200px;  
+   width: 100px;
+   height: 100px;  
    border-radius: 100%;
-   object-fit: cover;  
+   object-fit: cover;
+   margin-right: 50px;
+   margin-left: 50px;  
   
 
 }
@@ -281,9 +250,9 @@ footer{
 }
 
 #sectioncarruselpreseidentes{
-
+   margin-top: 5px;
    padding: 25px 25px;
-   background-color: lightsalmon;
+   background-color: lightgoldenrodyellow;
 
 }
 
@@ -296,6 +265,10 @@ footer{
 
 /*---------------------------Aca arranca el estilado de galeria----------------------------*/
 
+.maingaleria {
+
+   background-color: lightgoldenrodyellow;
+}
 
 #galeria img{
 
@@ -320,33 +293,13 @@ footer{
 
 
 #sectioncarruselgaleria{
-
+   margin-top: 5px;
    padding: 25px 25px;
-   background-color: lightsalmon;
+   background-color: lightgoldenrodyellow;
 }
 
 
 
-/*
-
-.galeria-general-imagenes{
-
-  display: flex;
-  background-color: lightgreen;
-  align-items: center;
-  padding: 15px 0px;
-  margin-top: 75px;
-  flex-wrap: wrap;
-
-}
-
-.imagenes-galeria img{
-   width: 150px;
-   height: 150px;  
-   object-fit: over;
-
-}
-*/
 
 
 
@@ -359,15 +312,15 @@ footer{
 
 
 
-.main-contacto{
+.maincontacto{
    height: auto;
-   background-color: lightgreen;
+   background-color: lightgoldenrodyellow;
    margin-top: 85px;
   
    
 }
 
-.main-contacto p{
+.maincontacto p{
    height: 10px;
    margin-top: 10px;
    text-align: center;
@@ -376,43 +329,13 @@ footer{
    
 }
 
-/*
-#contactoIzquierda{
-display: flex;
-margin-top: 20px;
-margin-left: 30px;
-justify-content: space-evenly;
-justify-content: center;
 
-
-}
-
-#contactoDerecha{
-   display: flex;
-   margin-top: 5%;
-   margin-left: 30px;
-   flex-wrap: wrap;
-   justify-content: space-evenly;
-   align-content: space-around;
-   justify-content: center;
-   
-   }
-
-   #textareaContacto{
-
-      display: flex;
-      padding: 10px 0px;
-      margin-left: 25px;
-      margin-top: 25px;
-      justify-content: center;
-
-   }
-*/
    .div-boton-contacto{
 
       display: flex;
       align-items: center;
       justify-content: center;
+   
       
    }
 
@@ -433,9 +356,9 @@ justify-content: center;
    }
 
    #sectioncarruselcontacto{
-
+     margin-top: 5px;
       padding: 25px 25px;
-      background-color: lightsalmon;
+      background-color: lightgoldenrodyellow;
    }
 
 
