@@ -63,7 +63,7 @@ width: 75px;
 
 }
 
-
+/**-------------------------------------------Arranca el Main---------------------------*/
 
 #mainIndex{
 
@@ -71,12 +71,16 @@ width: 75px;
    margin-top: 5px; 
    display: grid;
    grid-template-columns: repeat(3,1fr);
-  /* grid-template-areas: barraverticalizquierda barracentraindex barracentraindex barraverticalderecha  ;*/
    align-items: baseline;
-   padding-top: 175px;
+   padding-top: 125px;
 
 }
 
+.tituloscolumnas p{
+position: relative;
+left: 150px;
+
+}
 
 .card {
 
@@ -89,7 +93,7 @@ width: 75px;
    margin-top: 5px;
    padding: 25px 25px;
    background-color: lightgoldenrodyellow;
-   height: 250px;
+   height: 600px;
 }
 
 
@@ -97,7 +101,7 @@ width: 75px;
 .carousel-item img {
    
    width: 15px;
-   height: 200px;  
+   height: 500px;  
 
 
 }
@@ -143,7 +147,7 @@ padding: 10px 0px;
 
 .derechos p{
 
-   font-size: 18px;
+   font-size: 12px;
    margin-left: 10px;
 }
 
@@ -238,8 +242,8 @@ padding: 10px 0px;
    height: 100px;  
    border-radius: 100%;
    object-fit: cover;
-   margin-right: 50px;
-   margin-left: 50px;  
+   margin-right: 75px;
+   margin-left: 75px;  
   
 
 }
