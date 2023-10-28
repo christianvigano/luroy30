@@ -1,0 +1,49 @@
+@import '../general/tamanobotones.scss';
+
+.div-boton-contacto{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    .boton-contacto {
+        
+      @include tamano-boton-contactos(50px,10px);  
+        
+        background-color: #2e518b; /*color botón*/
+        color: #ffffff; /*color texto*/
+        text-decoration: none; /*decoración texto*/
+        font-family: 'Poppins', sans-serif; /*tipografía texto*/
+
+        /*padding: 10px; espacio alrededor texto*/
+        /*border-radius: 50px; /*bordes redondos*/
+        
+        }&.boton-contacto:hover {
+            background-color: #ad0f17; 
+         }
+  
+    
+ }
+
+
+
+ /*---main---*/
+ .buttons {
+    
+    min-width: 25px;
+    display:flex;
+    padding: 15px;
+    
+ 
+ 
+ }
+ 
+ .buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    
+ }

@@ -1,0 +1,409 @@
+/*importar tipografias localmente*/
+/*@font-face {
+   font-family: 'Croseed Out';
+   src: url(../multimedia/fuentes/crossed-out.ttf);
+}
+*/
+/*reset de las paginas. Con esto le quito los margenes
+ y selecciono la tipografia de todas la pagina*/
+*{
+
+   margin:0;
+   padding:O;
+   font-family: 'Poppins', sans-serif;
+}
+
+header {
+   
+      position: fixed;
+      z-index: 3; /*para que este lo mas adelante posible*/
+      width: 100%;
+      top: 0;  
+      
+     
+
+}
+
+
+.sectionHeaderIndex{
+
+   height: 30px;
+   
+}
+
+.nav-index{
+display: flex;
+align-items: center;
+background-color: white;
+flex-wrap: wrap;
+justify-content: center;
+
+
+}
+
+.nav-index a{
+   text-decoration: none;
+}
+
+.nav-item{
+
+   font-size: 20px;
+   list-style-type: none;
+   text-decoration: none; 
+   display: inline-block;
+   padding: 14px 14px;
+  
+}
+
+/*css por id con el asterisco*/
+#logo {
+display: flex;
+width: 75px;
+
+
+}
+
+/**-------------------------------------------Arranca el Main---------------------------*/
+
+#mainIndex{
+
+   background-color: lightgoldenrodyellow;
+   margin-top: 5px; 
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   align-items: baseline;
+   padding-top: 125px;
+
+}
+
+.tituloscolumnas p{
+position: relative;
+left: 150px;
+
+}
+
+.card {
+
+   margin-top: 10px;
+}
+
+
+
+#sectionCarruselIndex{
+   margin-top: 5px;
+   padding: 25px 25px;
+   background-color: lightgoldenrodyellow;
+   height: 600px;
+}
+
+
+
+.carousel-item img {
+   
+   width: 15px;
+   height: 500px;  
+
+
+}
+
+
+.mainfooter{
+
+   background-color:lightgoldenrodyellow;
+   font-size: 10px;
+   color: black;
+   display: flex;
+   justify-content: space-between;
+}
+
+
+.buttons {
+
+   min-width: 25px;
+   display:flex;
+   padding: 15px;
+   
+
+
+}
+
+.buttons a {
+   text-decoration: none;
+   font-size: 28px;
+   width: 35px;
+   height: 35px;
+   line-height: 35px;
+   border-radius: 50%;
+   
+}
+
+.derechos {
+display: flex;
+justify-content: space-between;
+margin-right: 50px;
+padding: 10px 0px;
+
+}
+
+.derechos p{
+
+   font-size: 12px;
+   margin-left: 10px;
+}
+
+/*-----------------------Hasta aca va el index--------------------------------------------*/
+
+
+/*-----------------------Arranca el estilado de HIstoria----------------------------------*/
+
+
+
+  #mainHistoria{
+     padding: 5px 5px;
+     background-color: lightgoldenrodyellow;
+  }
+
+  .parrafoHistoria{
+   display: flex;
+   align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    
+    padding: 15px 0px;
+    margin-top: 85px;
+  }
+
+  .parrafoHistoria p{
+
+   padding: 15px 15px;
+   margin-right: 10px;
+   
+  }
+
+ 
+
+  .parrafoHistoria img{
+        width: 200px;
+        height: 200px;  
+        border-radius: 100%;
+        object-fit: cover; 
+  }
+
+  .parrafoHistoria p{
+     width: 75%;
+    
+}
+
+
+#sectioncarruselhistoria {
+   margin-top: 5px;
+   padding: 25px 25px;
+   background-color: lightgoldenrodyellow;
+  }
+
+  #sectioncarruselhistoria .carousel-item active {
+   object-fit: cover;
+
+  }
+
+  
+
+
+  
+
+
+  /*-------------------------Termina el estilado de Historia-----------------------------*/
+
+
+
+/*---------------------------Aca arranca el estilado de presidentes----------------------*/
+
+.mainpresidentes {
+
+   background-color: lightgoldenrodyellow;
+}
+
+
+.presidentes-imagenes{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    background-color: lightgoldenrodyellow;
+    padding: 10px 10px;
+    margin-top: 85px;
+    
+ 
+}
+
+.presidentes-imagenes img{
+   width: 100px;
+   height: 100px;  
+   border-radius: 100%;
+   object-fit: cover;
+   margin-right: 75px;
+   margin-left: 75px;  
+  
+
+}
+
+.presidentes-imagenes p{
+   width: 75%;
+   
+}
+
+#sectioncarruselpreseidentes{
+   margin-top: 5px;
+   padding: 25px 25px;
+   background-color: lightgoldenrodyellow;
+
+}
+
+
+  
+
+
+/*---------------------------Aca termina el estilado de presidentes-----------------------*/
+
+
+/*---------------------------Aca arranca el estilado de galeria----------------------------*/
+
+.maingaleria {
+
+   background-color: lightgoldenrodyellow;
+}
+
+#galeria img{
+
+   width: 100%;
+}
+
+#galeria {
+
+   margin-top: 50px;
+   
+}
+
+#galeria .col-lg-4 {
+
+   padding: 25px;
+}
+
+#galeria img:hover{
+
+   border: 5px solid white;
+}
+
+
+#sectioncarruselgaleria{
+   margin-top: 5px;
+   padding: 25px 25px;
+   background-color: lightgoldenrodyellow;
+}
+
+
+
+
+
+
+
+/*---------------------------Aca termina el estilado de galeria-----------------------------*/
+
+/*---------------------------Aca ararnca el estilado de contacto-----------------------------*/
+
+
+
+
+
+.maincontacto{
+   height: auto;
+   background-color: lightgoldenrodyellow;
+   margin-top: 85px;
+  
+   
+}
+
+.maincontacto p{
+   height: 10px;
+   margin-top: 10px;
+   text-align: center;
+   padding: 10px ;
+
+   
+}
+
+
+   .div-boton-contacto{
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   
+      
+   }
+
+
+   .boton-contacto {
+      padding: 10px; /*espacio alrededor texto*/
+      background-color: #2e518b; /*color botón*/
+      color: #ffffff; /*color texto*/
+      text-decoration: none; /*decoración texto*/
+      font-family: 'Poppins', sans-serif; /*tipografía texto*/
+      border-radius: 50px; /*bordes redondos*/
+      
+      }
+
+
+   .boton-contacto:hover {
+      background-color: #ad0f17; 
+   }
+
+   #sectioncarruselcontacto{
+     margin-top: 5px;
+      padding: 25px 25px;
+      background-color: lightgoldenrodyellow;
+   }
+
+
+   
+/*---------------------------Aca termina el estilado de contacto-----------------------------*/
+
+/*--------------------------- Pseudo Clases -------------------------------------------------*/
+
+
+.presidentes-imagenes:nth-of-type(odd) p {
+   
+   order: 2;
+
+   }
+
+
+
+/*---------------------------Termina Pseudo Clase---------------------------------------------*/
+
+
+
+
+/*------------------------------Media Query---------------------------------------------------*/
+ 
+
+   @media (max-width:375px){
+      #mainIndex{
+         grid-template-columns: repeat(1,1fr); 
+      }
+
+      .presidentes-imagenes{
+         height: auto;
+         flex-direction: column;
+         
+      
+     }
+
+      .parrafoHistoria{
+
+         height: auto;
+         flex-direction: column;
+      }
+
+   }

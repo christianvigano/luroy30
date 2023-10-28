@@ -1,0 +1,30 @@
+.presidentes-imagenes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  background-color: lightgoldenrodyellow;
+  padding: 10px 10px;
+  margin-top: 85px;
+}
+@media (max-width: 375px) {
+  .presidentes-imagenes {
+    height: auto;
+    flex-direction: column;
+  }
+}
+
+.presidentes-imagenes img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-right: 75px;
+  margin-left: 75px;
+}
+
+.presidentes-imagenes p {
+  width: 75%;
+}
+
+/*# sourceMappingURL=presidentes.css.map */

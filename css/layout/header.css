@@ -1,0 +1,33 @@
+header {
+  /*position: fixed;
+  z-index: 3; /*para que este lo mas adelante posible*/
+  width: 100%;
+  top: 0;
+  /*css por id con el asterisco*/
+}
+header .sectionHeaderIndex {
+  height: 30px;
+}
+header .nav-index {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+header .nav-index a {
+  text-decoration: none;
+}
+header .nav-item {
+  font-size: 20px;
+  list-style-type: none;
+  text-decoration: none;
+  display: inline-block;
+  padding: 14px 14px;
+}
+header #logo {
+  display: flex;
+  width: 75px;
+}
+
+/*# sourceMappingURL=header.css.map */

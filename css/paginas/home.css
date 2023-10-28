@@ -1,0 +1,22 @@
+.tituloscolumnas p {
+  position: relative;
+  left: 150px;
+}
+
+.card {
+  margin-top: 10px;
+}
+
+.derechos {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+  padding: 10px 0px;
+}
+
+.derechos p {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=home.css.map */

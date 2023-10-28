@@ -1,0 +1,17 @@
+#galeria img {
+  width: 100%;
+}
+
+#galeria {
+  margin-top: 50px;
+}
+
+#galeria .col-lg-4 {
+  padding: 25px;
+}
+
+#galeria img:hover {
+  border: 5px solid white;
+}
+
+/*# sourceMappingURL=imagenes-galeria.css.map */

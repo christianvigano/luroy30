@@ -1,0 +1,32 @@
+.parrafoHistoria {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 15px 0px;
+  margin-top: 85px;
+}
+@media (max-width: 375px) {
+  .parrafoHistoria {
+    height: auto;
+    flex-direction: column;
+  }
+}
+
+.parrafoHistoria p {
+  padding: 15px 15px;
+  margin-right: 10px;
+}
+
+.parrafoHistoria img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.parrafoHistoria p {
+  width: 75%;
+}
+
+/*# sourceMappingURL=historia.css.map */

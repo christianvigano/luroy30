@@ -69,7 +69,7 @@ Otra duda que tengo es saber hasta donde va el footer y donde arranca el main y 
        
         <p>Escriba su consulta y sera contactado a la brevedad</p>
 
-       <div class="container">
+       <form class="container"> <!--se corrigio a form-->
              
         <div class="mb-3">
             <label for="formGroupExampleInput" class="form-label">Nombre</label>
@@ -83,7 +83,7 @@ Otra duda que tengo es saber hasta donde va el footer y donde arranca el main y 
         
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Email</label>
-            <input type="email" class="form-control form-control-lg form-control-md  form-control-sm" id="exampleFormControlInput1" placeholder="ejemplo: email@gmail.com">
+            <input type="email" class="form-control form-control-lg form-control-md  form-control-sm" id="exampleFormControlInput1" placeholder="ejemplo: email@gmail.com" required>
           </div>
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
@@ -95,11 +95,11 @@ Otra duda que tengo es saber hasta donde va el footer y donde arranca el main y 
             <div class="div-boton-contacto">
                         
                     <!-- <input type="button">-->
-                    <a class="btn btn-primary" href="../index.html" target="_blank">Enviar</a>
+                    <button class="btn btn-primary"  type="submit">Enviar</button>
                     <!--boton-contacto-->
 
                 </div>
-        </div>  
+        </form>  
      </main>
             
      <section id="sectioncarruselcontacto">
