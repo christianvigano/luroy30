@@ -1,26 +1,25 @@
-.tituloscolumnas p{
-    position: relative;
-    /*left: 150px; corregi esto de la segunda entrega por el overflow*/
-    
-    }
-    
-    .card {
-    
-       margin-top: 10px;
-    }
+.tituloscolumnas p {
+   position: relative;
+   /*left: 150px; corregi esto de la segunda entrega por el overflow*/
+
+}
+
+.card {
+
+   margin-top: 10px;
+}
 
 
-    .derechos {
-        display: flex;
-        justify-content: space-between;
-        margin-right: 50px;
-        padding: 10px 0px;
-        
-        }
-        
-        .derechos p{
-        
-           font-size: 12px;
-           margin-left: 10px;
-        }
-     
+.derechos {
+   display: flex;
+   justify-content: space-between;
+   margin-right: 50px;
+   padding: 10px 0px;
+
+}
+
+.derechos p {
+
+   font-size: 12px;
+   margin-left: 10px;
+}

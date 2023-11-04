@@ -22,8 +22,8 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <!--Termina la llamada a Boostrap (Antes de la hoja de estilo)-->
 
-<!--Link de AOS-->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!--Link de AOS-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!--iconos redes-->
   <script src="https://kit.fontawesome.com/5f00108dc3.js" crossorigin="anonymous"></script>
@@ -75,44 +75,47 @@
     </section>
   </header>
 
-  <main class="maincontacto">
+  <main class="maingeneralcontacto">
 
-    <p>Escriba su consulta y sera contactado a la brevedad</p>
+    <h1 class="text-center my-4">Escriba su consulta y sera contactado a la brevedad</h1>
 
-    <form class="container" data-aos="fade-right" > <!--se corrigio a form-->
+    <section class="maincontacto">
 
-      <div class="mb-3 ">
-        <label for="formGroupExampleInput" class="form-label">Nombre</label>
-        <input type="text" class="form-control form-control-lg form-control-md form-control-sm"
-          id="formGroupExampleInput" placeholder="Ingrese aqui nombre">
-      </div>
+      <form class="container" data-aos="fade-right"> <!--se corrigio a form-->
 
-      <div class="mb-3">
-        <label for="formGroupExampleInput" class="form-label">Apellido</label>
-        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingreso aqui apellido">
-      </div>
+        <div class="mb-3 ">
+          <label for="formGroupExampleInput" class="form-label">Nombre</label>
+          <input type="text" class="form-control form-control-lg form-control-md form-control-sm"
+            id="formGroupExampleInput" placeholder="Ingrese aqui nombre">
+        </div>
 
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email</label>
-        <input type="email" class="form-control form-control-lg form-control-md  form-control-sm"
-          id="exampleFormControlInput1" placeholder="ejemplo: email@gmail.com" required>
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
-        <textarea class="form-control form-control-lg form-control-md  form-control-sm" id="exampleFormControlTextarea1"
-          rows="3">Ingrese aquí su consulta</textarea>
-      </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingreso aqui apellido">
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email</label>
+          <input type="email" class="form-control form-control-lg form-control-md  form-control-sm"
+            id="exampleFormControlInput1" placeholder="ejemplo: email@gmail.com" required>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+          <textarea class="form-control form-control-lg form-control-md  form-control-sm"
+            id="exampleFormControlTextarea1" rows="3">Ingrese aquí su consulta</textarea>
+        </div>
 
 
 
-      <div class="div-boton-contacto">
+        <div class="div-boton-contacto">
 
-        <!-- <input type="button">-->
-        <button class="btn btn-primary" type="submit">Enviar</button>
-        <!--boton-contacto-->
+          <!-- <input type="button">-->
+          <button class="btn btn-dark" type="submit">Enviar</button>
+          <!--boton-contacto-->
 
-      </div>
-    </form>
+        </div>
+      </form>
+    </section>
   </main>
 
   <section id="sectioncarruselcontacto">
@@ -146,6 +149,7 @@
 
 
   <footer class="mainfooter">
+
     <section class="derechos">
 
       <p>Club Luro y 30 de Junio. Todos los derechos Reservados </p>
@@ -154,9 +158,13 @@
     </section>
     <section class="buttons">
 
-      <a href="https://www.instagram.com/club.luro.cintra.oficial/" class="fa-brands fa-instagram"></a>
-      <a href="https://www.facebook.com/p/Club-Luro-y-30-de-Junio-100057383532557/" class="fa-brands fa-facebook"></a>
-      <a href="https://x.com/club_luro?t=Gvd3--gWh4jRZwYWhEhrhQ&s=09" class="fa-brands fa-twitter"></a>
+
+      <a href="https://www.instagram.com/club.luro.cintra.oficial/" class="fa-brands fa-instagram fa-bounce"
+        style="color: #000000;"></a>
+      <a href="https://www.facebook.com/p/Club-Luro-y-30-de-Junio-100057383532557/"
+        class="fa-brands fa-facebook fa-bounce" style="color: #000000;"></a>
+      <a href="https://x.com/club_luro?t=Gvd3--gWh4jRZwYWhEhrhQ&s=09" class="fa-brands fa-twitter fa-bounce"
+        style="color: #000000;"></a>
 
     </section>
 
@@ -170,11 +178,11 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init(
-              {
-                duration :750,
-                easing: 'ease'
-              }
-           );
+      {
+        duration: 750,
+        easing: 'ease'
+      }
+    );
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

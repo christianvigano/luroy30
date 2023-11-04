@@ -1,9 +1,17 @@
-.mainfooter{
-    
-    background-color:lightgoldenrodyellow;
-    font-size: 10px;
-    color: black;
-    display: flex;
-    justify-content: space-between;
- }
- 
+@import '../general/mainbackgrounds.scss';
+
+.mainfooter {
+
+   /*background-color:lightgoldenrodyellow;*/
+   @extend .backgroundmains;
+   font-size: 10px;
+   color: black;
+   display: flex;
+   justify-content: space-between;
+}
+
+
+.derechos p {
+
+   font-size: medium;
+}
