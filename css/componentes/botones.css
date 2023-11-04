@@ -7,12 +7,13 @@
 .div-boton-contacto .boton-contacto {
   border-radius: 50px;
   padding: 10px;
-  background-color: #2e518b; /*color botón*/
-  color: #ffffff; /*color texto*/
-  text-decoration: none; /*decoración texto*/
-  font-family: "Poppins", sans-serif; /*tipografía texto*/
-  /*padding: 10px; espacio alrededor texto*/
-  /*border-radius: 50px; /*bordes redondos*/
+  /* background-color: #040505; /*color botón*/
+  color: #ffffff;
+  /*color texto*/
+  text-decoration: none;
+  /*decoración texto*/
+  font-family: "Poppins", sans-serif;
+  /*tipografía texto*/
 }
 .div-boton-contacto.boton-contacto:hover {
   background-color: #ad0f17;

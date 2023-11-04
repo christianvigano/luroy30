@@ -1,48 +1,49 @@
 header {
-   
-    /*position: fixed; corregi esto por el overflow*/
-    z-index: 3; /*para que este lo mas adelante posible*/
-    width: 100%;
-    top: 0;  
- 
-    .sectionHeaderIndex{
 
-        height: 30px;
-        
-     }
+   /*position: fixed; corregi esto por el overflow*/
+   z-index: 3;
+   /*para que este lo mas adelante posible*/
+   width: 100%;
+   top: 0;
 
-     
-     .nav-index{
-        display: flex;
-        align-items: center;
-        background-color: white;
-        flex-wrap: wrap;
-        justify-content: center;
-        
-        
-        }
-        
-        .nav-index a{
-           text-decoration: none;
-        }
-        
-        .nav-item{
-        
-           font-size: 20px;
-           list-style-type: none;
-           text-decoration: none; 
-           display: inline-block;
-           padding: 14px 14px;
-          
-        }
-        
-        /*css por id con el asterisco*/
-        #logo {
-        display: flex;
-        width: 75px;
-        
-        
-        }
-   
+   .sectionHeaderIndex {
+
+      height: 30px;
+
+   }
+
+
+   .nav-index {
+      display: flex;
+      align-items: center;
+      background-color: white;
+      flex-wrap: wrap;
+      justify-content: center;
+
+
+   }
+
+   .nav-index a {
+      text-decoration: none;
+   }
+
+   .nav-item {
+
+      font-size: 20px;
+      list-style-type: none;
+      text-decoration: none;
+      display: inline-block;
+      padding: 14px 14px;
+
+   }
+
+   /*css por id con el asterisco*/
+   #logo {
+      display: flex;
+      width: 75px;
+
+
+   }
+
 
 }

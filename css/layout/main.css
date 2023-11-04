@@ -1,10 +1,21 @@
+.backgroundmains, .maincontacto, .maingeneralcontacto, .maingaleria, .maingaleriageneral, .mainpresidentes, .maingeneralpresidentes, .mainHistoria, .maingeneralhistoria, #mainIndex, .maingeneralindex {
+  background: rgb(9, 121, 36);
+  background: -moz-linear-gradient(90deg, rgb(9, 121, 36) 23%, rgb(9, 121, 36) 25%, rgb(9, 121, 36) 61%, rgb(60, 175, 4) 81%);
+  background: -webkit-linear-gradient(90deg, rgb(9, 121, 36) 23%, rgb(9, 121, 36) 25%, rgb(9, 121, 36) 61%, rgb(60, 175, 4) 81%);
+  background: linear-gradient(90deg, rgb(9, 121, 36) 23%, rgb(9, 121, 36) 25%, rgb(9, 121, 36) 61%, rgb(60, 175, 4) 81%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#097924", endColorstr="#3caf04", GradientType=1);
+}
+
+.maingeneralindex {
+  padding-top: 125px;
+}
+
 #mainIndex {
-  background-color: lightgoldenrodyellow;
+  /*background-color: lightgoldenrodyellow;*/
   margin-top: 5px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: baseline;
-  padding-top: 125px;
 }
 @media (max-width: 375px) {
   #mainIndex {
@@ -13,33 +24,59 @@
 }
 
 /*------------------main historia-----------------------*/
-#mainHistoria {
-  padding: 5px 5px;
-  background-color: lightgoldenrodyellow;
+.maingeneralhistoria {
+  padding-top: 75px;
+  margin-top: 15px;
 }
 
+.mainHistoria {
+  /*padding: 5px 5px;*/
+  /*background-color: lightgoldenrodyellow;*/
+}
+
+.maingeneralhistoria h1 {
+  font-size: x-large;
+}
+
+/*----------------------------*/
 /*-------------------main presidentes-----------------*/
-.mainpresidentes {
-  background-color: lightgoldenrodyellow;
+.maingeneralpresidentes {
+  padding-top: 125px;
+}
+
+.maingeneralpresidentes h1 {
+  font-size: x-large;
 }
 
 /*------------------main galeria------------------------*/
+.maingaleriageneral {
+  padding-top: 125px;
+}
+
 .maingaleria {
-  background-color: lightgoldenrodyellow;
+  /* background-color: lightgoldenrodyellow;*/
+}
+
+.maingaleriageneral h1 {
+  font-size: xx-large;
 }
 
 /*------------------main contacto-------------------------*/
+.maingeneralcontacto {
+  padding-top: 125px;
+}
+
 .maincontacto {
   height: auto;
-  background-color: lightgoldenrodyellow;
+  /*background-color: lightgoldenrodyellow;*/
   margin-top: 85px;
 }
 
-.maincontacto p {
+.maingeneralcontacto h1 {
   height: 10px;
-  margin-top: 10px;
   text-align: center;
   padding: 10px;
+  font-size: x-large;
 }
 
 /*# sourceMappingURL=main.css.map */

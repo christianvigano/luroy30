@@ -6,7 +6,8 @@
 
 header {
   position: fixed;
-  z-index: 3; /*para que este lo mas adelante posible*/
+  z-index: 3;
+  /*para que este lo mas adelante posible*/
   width: 100%;
   top: 0;
 }

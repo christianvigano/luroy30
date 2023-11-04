@@ -1,11 +1,20 @@
+.backgroundmains, .presidentes-imagenes {
+  background: rgb(9, 121, 36);
+  background: -moz-linear-gradient(90deg, rgb(9, 121, 36) 23%, rgb(9, 121, 36) 25%, rgb(9, 121, 36) 61%, rgb(60, 175, 4) 81%);
+  background: -webkit-linear-gradient(90deg, rgb(9, 121, 36) 23%, rgb(9, 121, 36) 25%, rgb(9, 121, 36) 61%, rgb(60, 175, 4) 81%);
+  background: linear-gradient(90deg, rgb(9, 121, 36) 23%, rgb(9, 121, 36) 25%, rgb(9, 121, 36) 61%, rgb(60, 175, 4) 81%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#097924", endColorstr="#3caf04", GradientType=1);
+}
+
 .presidentes-imagenes {
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: 18px;
-  background-color: lightgoldenrodyellow;
+  /*background-color: lightgoldenrodyellow;*/
   padding: 10px 10px;
-  margin-top: 85px;
+  margin-top: 15px;
+  border-style: solid;
 }
 @media (max-width: 375px) {
   .presidentes-imagenes {

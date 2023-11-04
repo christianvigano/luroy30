@@ -1,62 +1,136 @@
-@import'../mediaqueries/mediaqueries.scss';
+@import '../mediaqueries/mediaqueries.scss';
+@import '../general/mainbackgrounds.scss';
 
-#mainIndex{
-   
+
+.maingeneralindex {
+
+   @extend .backgroundmains;
+   padding-top: 125px;
+
+}
+
+
+#mainIndex {
+
    @include for-phone-only {
 
-      grid-template-columns: repeat(1,1fr); 
+      grid-template-columns: repeat(1, 1fr);
    }
-    background-color: lightgoldenrodyellow;
-    margin-top: 5px; 
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    align-items: baseline;
-    padding-top: 125px;
- 
- }
 
-    
+   /*background-color: lightgoldenrodyellow;*/
+
+   @extend .backgroundmains;
+
+   margin-top: 5px;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   align-items: baseline;
 
 
-    /*------------------main historia-----------------------*/
+}
 
-    .mainHistoria{
-        padding: 5px 5px;
-        background-color: lightgoldenrodyellow;
-     }
 
-     
 
-     /*-------------------main presidentes-----------------*/
 
-     .mainpresidentes {
 
-        background-color: lightgoldenrodyellow;
-     }
 
-     /*------------------main galeria------------------------*/
-     .maingaleria {
+/*------------------main historia-----------------------*/
 
-      background-color: lightgoldenrodyellow;
-   }
-     
+.maingeneralhistoria {
+   @extend .backgroundmains;
+   padding-top: 75px;
+   margin-top: 15px;
 
-   /*------------------main contacto-------------------------*/
-   
-.maincontacto{
+}
+
+.mainHistoria {
+   /*padding: 5px 5px;*/
+   /*background-color: lightgoldenrodyellow;*/
+   @extend .backgroundmains;
+
+
+
+}
+
+
+.maingeneralhistoria h1 {
+
+   font-size: x-large;
+
+
+}
+
+
+
+/*----------------------------*/
+
+
+
+/*-------------------main presidentes-----------------*/
+
+.maingeneralpresidentes {
+
+   @extend .backgroundmains;
+   padding-top: 125px;
+
+}
+
+.mainpresidentes {
+
+   @extend .backgroundmains;
+
+
+}
+
+.maingeneralpresidentes h1 {
+
+   font-size: x-large;
+
+}
+
+/*------------------main galeria------------------------*/
+
+.maingaleriageneral {
+   @extend .backgroundmains;
+   padding-top: 125px;
+
+}
+
+.maingaleria {
+   @extend .backgroundmains;
+   /* background-color: lightgoldenrodyellow;*/
+}
+
+.maingaleriageneral h1 {
+
+   font-size: xx-large;
+}
+
+
+/*------------------main contacto-------------------------*/
+
+.maingeneralcontacto {
+   @extend .backgroundmains;
+   padding-top: 125px;
+
+
+}
+
+
+.maincontacto {
    height: auto;
-   background-color: lightgoldenrodyellow;
+   @extend .backgroundmains;
+   /*background-color: lightgoldenrodyellow;*/
    margin-top: 85px;
-  
-   
+
+
 }
 
-.maincontacto p{
+.maingeneralcontacto h1 {
    height: 10px;
-   margin-top: 10px;
    text-align: center;
-   padding: 10px ;
+   padding: 10px;
+   font-size: x-large;
 
-   
+
 }
-

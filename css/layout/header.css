@@ -1,6 +1,7 @@
 header {
-  /*position: fixed;
-  z-index: 3; /*para que este lo mas adelante posible*/
+  /*position: fixed; corregi esto por el overflow*/
+  z-index: 3;
+  /*para que este lo mas adelante posible*/
   width: 100%;
   top: 0;
   /*css por id con el asterisco*/

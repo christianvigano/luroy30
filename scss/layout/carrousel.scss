@@ -1,65 +1,71 @@
+@import '../general/mainbackgrounds.scss';
+
 /*---------------------carrousel home------------------------*/
 
-#sectionCarruselIndex{
-    margin-top: 5px;
-    padding: 25px 25px;
-    background-color: lightgoldenrodyellow;
-    height: 600px;
- }
- 
- 
- 
- .carousel-item img {
-    
-    width: 15px;
-    height: 500px;  
-    object-fit: cover;
- 
- }
+#sectionCarruselIndex {
+   margin-top: 5px;
+   padding: 25px 25px;
+   /*background-color: lightgoldenrodyellow;*/
+   @extend .backgroundmains;
+   height: 600px;
+}
 
- /*---------------------------------------------------*/
+
+
+.carousel-item img {
+
+   width: 15px;
+   height: 500px;
+   object-fit: cover;
+
+}
+
+/*---------------------------------------------------*/
 
 
 
 
 
 #sectioncarruselhistoria {
-    margin-top: 5px;
-    padding: 25px 25px;
-    background-color: lightgoldenrodyellow;
-   }
- 
-   #sectioncarruselhistoria .carousel-item active {
-    object-fit: cover;
- 
-   }
+   margin-top: 5px;
+   padding: 25px 25px;
+   /* background-color: lightgoldenrodyellow;*/
+   @extend .backgroundmains;
+}
 
- 
- 
-   /*-------------------------Termina el estilado de Historia-----------------------------*/
+#sectioncarruselhistoria .carousel-item active {
+   object-fit: cover;
+
+}
 
 
-   /*-------------------------carrousel presidentes-----------------------------*/
-   #sectioncarruselpreseidentes{
-    margin-top: 5px;
-    padding: 25px 25px;
-    background-color: lightgoldenrodyellow;
- 
- }
 
- /*-----------------------carrpusel galeria------------------------------------*/
+/*-------------------------Termina el estilado de Historia-----------------------------*/
 
- #sectioncarruselgaleria{
-    margin-top: 5px;
-    padding: 25px 25px;
-    background-color: lightgoldenrodyellow;
- }
 
- /*-------------------carrousel contacto-----------------------------------*/
- 
- #sectioncarruselcontacto{
-    margin-top: 5px;
-     padding: 25px 25px;
-     background-color: lightgoldenrodyellow;
-  }
+/*-------------------------carrousel presidentes-----------------------------*/
+#sectioncarruselpreseidentes {
+   margin-top: 5px;
+   padding: 25px 25px;
+   /* background-color: lightgoldenrodyellow;*/
+   @extend .backgroundmains;
 
+}
+
+/*-----------------------carrpusel galeria------------------------------------*/
+
+#sectioncarruselgaleria {
+   margin-top: 5px;
+   padding: 25px 25px;
+   /*background-color: lightgoldenrodyellow;*/
+   @extend .backgroundmains;
+}
+
+/*-------------------carrousel contacto-----------------------------------*/
+
+#sectioncarruselcontacto {
+   margin-top: 5px;
+   padding: 25px 25px;
+   /* background-color: lightgoldenrodyellow;*/
+   @extend .backgroundmains;
+}

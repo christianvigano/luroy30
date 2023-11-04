@@ -1,4 +1,4 @@
-.backgroundmains, .mainfooter {
+.backgroundmains {
   background: rgb(9, 121, 36);
   background: -moz-linear-gradient(90deg, rgb(9, 121, 36) 23%, rgb(9, 121, 36) 25%, rgb(9, 121, 36) 61%, rgb(60, 175, 4) 81%);
   background: -webkit-linear-gradient(90deg, rgb(9, 121, 36) 23%, rgb(9, 121, 36) 25%, rgb(9, 121, 36) 61%, rgb(60, 175, 4) 81%);
@@ -6,16 +6,4 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#097924", endColorstr="#3caf04", GradientType=1);
 }
 
-.mainfooter {
-  /*background-color:lightgoldenrodyellow;*/
-  font-size: 10px;
-  color: black;
-  display: flex;
-  justify-content: space-between;
-}
-
-.derechos p {
-  font-size: medium;
-}
-
-/*# sourceMappingURL=footer.css.map */
+/*# sourceMappingURL=mainbackgrounds.css.map */

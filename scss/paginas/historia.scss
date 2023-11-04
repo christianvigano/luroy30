@@ -1,42 +1,41 @@
 @import'../mediaqueries/mediaqueries.scss';
 
-.parrafoHistoria{
+.parrafoHistoria {
 
 
       @include for-phone-only {
 
             height: auto;
-            flex-direction: column; 
-         }
+            flex-direction: column;
+      }
 
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-     font-size: 18px;
-     
-     padding: 15px 0px;
-     margin-top: 45px;
-   }
- 
-   .parrafoHistoria p{
- 
-    padding: 15px 15px;
-    margin-right: 10px;
-    
-   }
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 18px;
 
 
-  
- 
-   .parrafoHistoria img{
-         width: 200px;
-         height: 200px;  
-         border-radius: 100%;
-         object-fit: cover; 
-   }
- 
-   .parrafoHistoria p{
+
+}
+
+.parrafoHistoria p {
+
+      padding: 15px 15px;
+      margin-right: 10px;
+
+}
+
+
+
+
+.parrafoHistoria img {
+      width: 200px;
+      height: 200px;
+      border-radius: 100%;
+      object-fit: cover;
+}
+
+.parrafoHistoria p {
       width: 75%;
-     
- }
- 
+
+}
